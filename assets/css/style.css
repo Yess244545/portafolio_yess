@@ -116,9 +116,18 @@ img {
 
 .grid--container {
   max-width: 1024px;
+  display: grid;
   margin: 3 var(--mr-1);
   padding: 0 20px;
 }
+
+.grid--container1 {
+  max-width: 1024px;
+  
+  margin: 3 var(--mr-1);
+  padding: 0 20px;
+}
+
 
 .btn {
   display: inline-block;
@@ -154,6 +163,9 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+body{
+  overflow-x: hidden;
 }
 
 @media (max-width: 768px) {
@@ -354,6 +366,7 @@ tr {
 
 /* ============= Projects ============= */
 .projects__container {
+  
   gap: 2rem;
 }
 
